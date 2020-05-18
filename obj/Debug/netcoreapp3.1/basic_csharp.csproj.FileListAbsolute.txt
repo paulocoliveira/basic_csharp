@@ -1,0 +1,13 @@
+D:\GitHub\basic_csharp\obj\Debug\netcoreapp3.1\basic_csharp.csprojAssemblyReference.cache
+D:\GitHub\basic_csharp\obj\Debug\netcoreapp3.1\basic_csharp.csproj.CoreCompileInputs.cache
+D:\GitHub\basic_csharp\obj\Debug\netcoreapp3.1\basic_csharp.AssemblyInfoInputs.cache
+D:\GitHub\basic_csharp\obj\Debug\netcoreapp3.1\basic_csharp.AssemblyInfo.cs
+D:\GitHub\basic_csharp\bin\Debug\netcoreapp3.1\basic_csharp.exe
+D:\GitHub\basic_csharp\bin\Debug\netcoreapp3.1\basic_csharp.deps.json
+D:\GitHub\basic_csharp\bin\Debug\netcoreapp3.1\basic_csharp.runtimeconfig.json
+D:\GitHub\basic_csharp\bin\Debug\netcoreapp3.1\basic_csharp.runtimeconfig.dev.json
+D:\GitHub\basic_csharp\bin\Debug\netcoreapp3.1\basic_csharp.dll
+D:\GitHub\basic_csharp\bin\Debug\netcoreapp3.1\basic_csharp.pdb
+D:\GitHub\basic_csharp\obj\Debug\netcoreapp3.1\basic_csharp.dll
+D:\GitHub\basic_csharp\obj\Debug\netcoreapp3.1\basic_csharp.pdb
+D:\GitHub\basic_csharp\obj\Debug\netcoreapp3.1\basic_csharp.genruntimeconfig.cache
