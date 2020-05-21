@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using basic_csharp.fundamentals;
 using basic_csharp.controlStatements;
 using basic_csharp.exercises;
+using basic_csharp.classesAndMethods;
 
 namespace basic_csharp
 {
@@ -30,9 +31,15 @@ namespace basic_csharp
                 {"Control Structures - Switch Statement", SwitchStatement.Run},
                 {"Control Structures - While Statement", WhileStatement.Run},
                 {"Control Structures - Do While Statement", DoWhileStatement.Run},
+                {"Control Structures - For Statement", ForStatement.Run},
+                {"Control Structures - For Each Statement", ForEachStatement.Run},
+                {"Control Structures - Using Break", UsingBreak.Run},
+                {"Control Structures - Using Continue", UsingContinue.Run},
                 {"Exercises - 01", Exercise01.Run},
                 {"Exercises - 02", Exercise02.Run},
                 {"Exercises - 03", Exercise03.Run},
+                {"Classes and Methods - Members", Members.Run},
+                {"Classes and Methods - Constructors", Constructors.Run},
             });
 
             central.SelectAndRun();
