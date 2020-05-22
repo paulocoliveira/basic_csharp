@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-// [assembly: System.Reflection.AssemblyCompanyAttribute("controlStatements")]
-// [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-// [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-// [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-// [assembly: System.Reflection.AssemblyProductAttribute("controlStatements")]
-// [assembly: System.Reflection.AssemblyTitleAttribute("controlStatements")]
-// [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("classesAndMethods")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("classesAndMethods")]
+[assembly: System.Reflection.AssemblyTitleAttribute("classesAndMethods")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 

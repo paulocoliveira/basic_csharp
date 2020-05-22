@@ -38,8 +38,13 @@ namespace basic_csharp
                 {"Exercises - 01", Exercise01.Run},
                 {"Exercises - 02", Exercise02.Run},
                 {"Exercises - 03", Exercise03.Run},
+                {"Exercises - 04", Exercise04.Run},
                 {"Classes and Methods - Members", Members.Run},
                 {"Classes and Methods - Constructors", Constructors.Run},
+                {"Classes and Methods - Methods with return", MethodsWithReturn.Run},
+                {"Classes and Methods - Static Methods", StaticMethods.Run},
+                {"Classes and Methods - Static Attributes", StaticAttributes.Run},
+                {"Classes and Methods - Attribute Challenge", AttributeChallenge.Run},
             });
 
             central.SelectAndRun();
