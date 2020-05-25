@@ -45,6 +45,17 @@ namespace basic_csharp
                 {"Classes and Methods - Static Methods", StaticMethods.Run},
                 {"Classes and Methods - Static Attributes", StaticAttributes.Run},
                 {"Classes and Methods - Attribute Challenge", AttributeChallenge.Run},
+                {"Classes and Methods - Params", Params.Run},
+                {"Classes and Methods - Named Params", NamedParams.Run},
+                {"Classes and Methods - Getters and Setters", GettersAndSetters.Run},
+                {"Classes and Methods - Properties", Properties.Run},
+                {"Classes and Methods - Read Only", ReadOnly.Run},
+                {"Classes and Methods - Enums", Enums.Run},
+                {"Classes and Methods - Using Struct", UsingStruct.Run},
+                {"Classes and Methods - Struct vs Class", StructVsClass.Run},
+                {"Classes and Methods - Value vs Reference", ValueVsReference.Run},
+                {"Classes and Methods - Parameters by Reference", ParametersByReference.Run},
+                {"Classes and Methods - Standard Parameter", StandardParameter.Run},
             });
 
             central.SelectAndRun();
