@@ -4,6 +4,7 @@ using basic_csharp.fundamentals;
 using basic_csharp.controlStatements;
 using basic_csharp.exercises;
 using basic_csharp.classesAndMethods;
+using basic_csharp.collections;
 
 namespace basic_csharp
 {
@@ -56,6 +57,14 @@ namespace basic_csharp
                 {"Classes and Methods - Value vs Reference", ValueVsReference.Run},
                 {"Classes and Methods - Parameters by Reference", ParametersByReference.Run},
                 {"Classes and Methods - Standard Parameter", StandardParameter.Run},
+                {"Collections - Using Arrays", UsingArrays.Run},
+                {"Collections - Using Lists", UsingLists.Run},
+                {"Collections - Using Array Lists", UsingArrayLists.Run},
+                {"Collections - Using Sets", UsingSets.Run},
+                {"Collections - Using Queues", UsingQueues.Run},
+                {"Collections - Equality", Equality.Run},
+                {"Collections - Using Stacks", UsingStacks.Run},
+                {"Collections - Using Dictionaries", UsingDictionaries.Run},
             });
 
             central.SelectAndRun();
