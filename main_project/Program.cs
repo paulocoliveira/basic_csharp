@@ -8,6 +8,8 @@ using basic_csharp.Collections;
 using basic_csharp.ObjectOriented;
 using basic_csharp.MethodsAndFunctions;
 using basic_csharp.Exceptions;
+using basic_csharp.Api;
+using basic_csharp.AdvancedTopics;
 using Encapsulation;
 
 namespace basic_csharp
@@ -40,10 +42,6 @@ namespace basic_csharp
                 {"Control Structures - For Each Statement", ForEachStatement.Run},
                 {"Control Structures - Using Break", UsingBreak.Run},
                 {"Control Structures - Using Continue", UsingContinue.Run},
-                {"Exercises - 01", Exercise01.Run},
-                {"Exercises - 02", Exercise02.Run},
-                {"Exercises - 03", Exercise03.Run},
-                {"Exercises - 04", Exercise04.Run},
                 {"Classes and Methods - Members", Members.Run},
                 {"Classes and Methods - Constructors", Constructors.Run},
                 {"Classes and Methods - Methods with return", MethodsWithReturn.Run},
@@ -84,6 +82,23 @@ namespace basic_csharp
                 {"Methods and Functions - Extension Methods", ExtensionMethods.Run},
                 {"Exceptions - First Exception", FirstException.Run},
                 {"Exceptions - Custom Exceptions", CustomExceptions.Run},
+                {"Api - First File", FirstFile.Run},
+                {"Api - Reading Files", ReadingFiles.Run},
+                {"Api - Using FileInfo", UsingFileInfo.Run},
+                {"Api - Directories", Directories.Run},
+                {"Api - Using DirectoryInfo", UsingDirectoryInfo.Run},
+                {"Api - Using Path", UsingPath.Run},
+                {"Api - Using DateTime", UsingDateTime.Run},
+                {"Api - Using TimeSpan", UsingTimeSpan.Run},
+                {"Advanced Topics - LINQ #01", LINQ1.Run},
+                {"Advanced Topics - LINQ #02", LINQ2.Run},
+                {"Advanced Topics - Nullables", Nullables.Run},
+                {"Advanced Topics - Dynamics", Dynamics.Run},
+                {"Advanced Topics - Generics", Generics.Run},
+                {"Exercises - 01", Exercise01.Run},
+                {"Exercises - 02", Exercise02.Run},
+                {"Exercises - 03", Exercise03.Run},
+                {"Exercises - 04", Exercise04.Run},
             });
 
             central.SelectAndRun();

@@ -33,7 +33,7 @@ namespace basic_csharp {
             Console.ResetColor();
 
             Console.WriteLine(String.Concat(
-                Enumerable.Repeat("=", exerciseName.Length + 21)) + "\n");
+                Enumerable.Repeat("=", exerciseName.Length + 17)) + "\n");
 
             Action executar = Exercises.ElementAt(num).Value;
             try {
