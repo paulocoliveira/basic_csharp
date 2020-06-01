@@ -1,0 +1,10 @@
+Pedro;Staff;299,99
+André;Manager;300,00
+Ana;Staff;300,01
+Jorge;Staff;2000,00
+Ana;Staff;21,53
+Júlia;Coordinator;100,01
+Márcio;Manager;100,00
+Paulo;Staff;1000,00
+Lílian;Coordinator;2750,00
+Urbano;Coordinator;100,00

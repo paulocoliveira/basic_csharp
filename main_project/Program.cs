@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using basic_csharp.Fundamentals;
 using basic_csharp.ControlStatements;
-using basic_csharp.Exercises;
 using basic_csharp.ClassesAndMethods;
 using basic_csharp.Collections;
 using basic_csharp.ObjectOriented;
@@ -11,6 +10,15 @@ using basic_csharp.Exceptions;
 using basic_csharp.Api;
 using basic_csharp.AdvancedTopics;
 using Encapsulation;
+using basic_csharp.Exercises.Module3;
+using basic_csharp.Exercises.Module4;
+using basic_csharp.Exercises.Module5;
+using basic_csharp.Exercises.Module6;
+using basic_csharp.Exercises.Module7;
+using basic_csharp.Exercises.Module9;
+using basic_csharp.Exercises.Challenge;
+
+
 
 namespace basic_csharp
 {
@@ -99,6 +107,12 @@ namespace basic_csharp
                 {"Exercises - 02", Exercise02.Run},
                 {"Exercises - 03", Exercise03.Run},
                 {"Exercises - 04", Exercise04.Run},
+                {"Exercises - 05", Exercise05.Run},
+                {"Exercises - 06", Exercise06.Run},
+                {"Exercises - 07", Exercise07.Run},
+                {"Exercises - 08", Exercise08.Run},
+                {"Exercises - 09", Exercise09.Run},
+                {"Challenge", ChallengeExercise.Run},
             });
 
             central.SelectAndRun();

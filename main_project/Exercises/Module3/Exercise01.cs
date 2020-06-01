@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace basic_csharp.Exercises{
+namespace basic_csharp.Exercises.Module3{
     class Exercise01{
         /*
         * Create an algorithm to verify if a number is even or odd.

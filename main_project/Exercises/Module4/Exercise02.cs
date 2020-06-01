@@ -1,6 +1,6 @@
 using System;
 
-namespace basic_csharp.Exercises{
+namespace basic_csharp.Exercises.Module4{
     class Exercise02{
         /*
         * Create an algorithm to inform how many people has more than 18 years.

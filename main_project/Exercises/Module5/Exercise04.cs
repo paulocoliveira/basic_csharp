@@ -1,7 +1,8 @@
-using System;
+﻿using System;
 using System.Globalization;
+using basic_csharp.Exercises.Module5.Models;
 
-namespace basic_csharp.Exercises{
+namespace basic_csharp.Exercises.Module5{
     class Exercise04{
         /*
         * Create an algorithm to calculate anf display the readjusted salary of 10 employees, according to the below rules:
@@ -14,7 +15,7 @@ namespace basic_csharp.Exercises{
         */
         public static void Run(){
             int collected = 1;
-            int numberOfPeople = 3;
+            int numberOfPeople = 10;
 
             while (collected <= numberOfPeople){
                 Console.Write("Type your name: ");
@@ -26,31 +27,9 @@ namespace basic_csharp.Exercises{
                 p.Name = name;
                 p.Salary = salary;
                 double readjustedSalary = p.readjustSalary();
-                p.informNewSalary(readjustedSalary);
+                p.informSalary(readjustedSalary);
                 collected++;
             }
-        }
-    }
-
-    class Person{
-        public string Name;
-        public double Salary;
-
-        public double readjustSalary(){
-            double adjust30 = 0.3;
-            double adjust50 = 0.5;
-            double readjustment = 0.0;
-            if (Salary >= 300.00){
-                readjustment = adjust30;
-            } else{
-                readjustment = adjust50;
-            }
-            double newSalary = Salary + (Salary*readjustment);
-            return newSalary;
-        }
-
-        public void informNewSalary(double newSalary){
-            System.Console.WriteLine($"{Name} has new salary ${newSalary.ToString("F2")}.");
         }
     }
 }

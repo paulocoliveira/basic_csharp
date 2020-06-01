@@ -1,7 +1,7 @@
-using System;
+﻿using System;
 using System.Globalization;
 
-namespace basic_csharp.Exercises{
+namespace basic_csharp.Exercises.Module4{
     class Exercise03{
         /*
         * Create an algorithm to calculate anf display the readjusted salary of 10 employees, according to the below rules:
@@ -36,3 +36,4 @@ namespace basic_csharp.Exercises{
         }
     }
 }
+
